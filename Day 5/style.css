@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@500&family=Shippori+Antique+B1&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  /* height: 0; */
+  padding: 0;
+}
+
+
+body{
+  height: 100vh;
+  /* width: 100%; */
+  display: grid;
+  /* justify-content: center */
+  place-items: center;
+  /* align-items: center; */
+  background: #aee2f5;
+  font-family: 'Montserrat', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shippori Antique B1', sans-serif;
+
+}
+
+.main_div{
+  width: 600px;
+  height: 300px;
+  background-color: #279ef4;
+  padding: 20px;
+  border-radius: 10px;
+  clip-path: circle(26.5% at 100% 0);
+  transition: .3s;
+}
+.main_div h1{
+  margin: 30px 0;
+  color: #c6ee70;
+}
+.main_div p{
+  color: #fff;
+  line-height: 150%;
+}
+.main_div h3{
+  color: #fff;
+  margin-top: 30px;
+}
+.main_div:hover{
+  clip-path: circle(141.4% at 100% 0);
+
+}

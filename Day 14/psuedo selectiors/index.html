@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+      @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grenze+Gotisch&family=Indie+Flower&family=Montserrat:wght@300&family=Mulish&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Quicksand:wght@300;400&family=Roboto:wght@500&family=Shippori+Antique+B1&family=Shizuru&display=swap');
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body{
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgb(31, 218, 230);
+      }
+      ul *{
+        padding-top: 10px;
+        font-size: 40px;
+        color: #fff;
+        font-family:"Bebas Neue";
+
+      }
+      li:nth-child(odd){color: blue;}
+      li:last-child{color: pink;}
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>content</li>
+      <li>content</li>
+      <li>content</li>
+      <li>content</li>
+      <li>content</li>
+      <li>content</li>
+      <li>content</li>
+      <li>content</li>
+
+    </ul>
+    <script>
+      let a = 1;
+      let b = 2;
+      console.log(a);
+      console.log(b);
+      [a,b ]= [b,a];
+      console.log(a);
+      console.log(b);
+    </script>
+  </body>
+</html>

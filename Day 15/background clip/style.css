@@ -1,0 +1,30 @@
+*{margin:0;padding:0;box-sizing: border-box;}
+
+
+body{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(200, 250, 250);
+}
+a{
+  text-decoration: none;
+  font-size: 50px;
+  background-color: rgb(27, 210, 118);
+  padding: 10px 5px;
+  transition: all 500ms;
+}
+a:hover{
+  letter-spacing: 3px;
+  padding: 0 10px;
+}
+h1{
+  color: transparent;
+  font-size: 100px;
+  background: url('https://i.pinimg.com/736x/a3/5c/8c/a35c8ca5272d044123bb103c9306ca8f.jpg');
+  background-size: 100% 100%;
+  -webkit-background-clip: text;
+  font-weight: bolder;
+}

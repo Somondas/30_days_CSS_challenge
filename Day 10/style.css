@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Grenze+Gotisch&family=Indie+Flower&family=Montserrat:wght@300&family=Mulish&family=Nunito:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Quicksand:wght@300;400&family=Roboto:wght@500&family=Shippori+Antique+B1&family=Shizuru&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(31, 218, 230);
+}
+h1{
+font-family: 'Grenze Gotisch', cursive;
+  font-size: 100px;
+  font-weight: lighter;
+  color: #2364e2;
+  border-bottom: 10px solid rgb(30, 137, 214);
+
+
+}
+h1::after{
+  content: "\f005";
+  font-family: "Font Awesome 5 Free";
+  width: 20vw;
+  /* height: 25rem; */
+  /* font-size: 80px; */
+  color: rgb(30, 137, 214);
+  display: block;
+  margin:  0 auto;
+
+}

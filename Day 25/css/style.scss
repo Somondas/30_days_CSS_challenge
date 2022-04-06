@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@500&family=Shippori+Antique+B1&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+html {
+  font-size: 62.5%;
+}
+
+.main_div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+   background: linear-gradient(120deg, rgb(83, 230, 216) ,rgb(27, 222, 52)); 
+  font-family: "Montserrat", sans-serif;
+  //   background-image: linear-gradient(269deg, #24d5da, rgb(122, 169, 224));
+}
+.loading{
+    width: 15rem;
+    height: 15rem;
+    // background-color: aqua;
+    position: relative;
+
+}
+
+span{
+    width: 5rem;
+    height: 5rem;
+    background: linear-gradient(120deg, rgb(83, 230, 216) ,rgb(27, 222, 52)); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loading 2s infinite;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    &:nth-child(2){
+        animation-delay: .67s;
+    }
+    &:nth-child(3){
+        animation-delay: 1.34s;
+    }
+}
+
+
+@keyframes loading {
+    0%{
+        top: 0;
+        left: 0;
+    }
+    12.5%{
+        top: 0;
+        left: 50%;
+    }
+    25%{
+        top: 0;
+        left: 50%;
+    }
+    37.5%{
+        left: 50%;
+        top:50%;
+    }
+    50%{
+        left: 50%;
+        top:50%;
+    }
+    62.5%{
+        left: 0;
+        top: 50%
+    }
+    75%{
+        left: 0;
+        top: 50%
+    }
+    85.5%{
+        top: 0;
+        left: 0;
+    }
+    100%{
+        top: 0;
+        left: 0;
+    }
+}

@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@500&family=Shippori+Antique+B1&display=swap');
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+.main_div {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  /* background: linear-gradient(120deg, rgb(83, 230, 216) 50%,rgb(27, 222, 52)50%); */
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(269deg, #24d5da, rgb(122, 169, 224));
+
+}
+ul{
+  li{
+    display: inline;
+    font-size: 7rem;
+    text-transform: uppercase;
+    padding-left: 2rem;
+    font-weight: bold;
+    color: rgb(40, 27, 218);
+    animation: light 1.3s linear infinite;
+    &:first-child{
+      padding-left: 0;
+      animation-delay: 0s;
+    }
+    
+    &:nth-child(2){
+      animation-delay: .2s;
+    }
+    &:nth-child(3){
+      animation-delay: .3s;
+    }
+    &:nth-child(4){
+      animation-delay: .4s;
+    }
+    &:nth-child(5){
+      animation-delay: .5s;
+    }
+    &:nth-child(6){
+      animation-delay: .6s;
+    }
+    &:nth-child(7){
+      animation-delay: .7s;
+    }
+
+  }
+}
+
+@keyframes light {
+  0%{
+    color: rgb(40, 27, 218);
+    text-shadow: none;
+  }
+  90%{
+    color: rgb(40, 27, 218);
+    text-shadow: none;
+  }
+  100%{
+    color: rgb(236, 220, 74);
+    text-shadow: 1px 0px 13px rgba(236, 220, 74, .7);
+  }
+}

@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@500&family=Shippori+Antique+B1&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+.main_div {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  /* background: linear-gradient(120deg, rgb(83, 230, 216) 50%,rgb(27, 222, 52)50%); */
+  font-family: 'Montserrat', sans-serif;
+  background-image: linear-gradient(269deg, #24d5da, #7aa9e0);
+}
+
+ul li {
+  display: inline;
+  font-size: 7rem;
+  text-transform: uppercase;
+  padding-left: 2rem;
+  font-weight: bold;
+  color: #281bda;
+  -webkit-animation: light 1.3s linear infinite;
+          animation: light 1.3s linear infinite;
+}
+
+ul li:first-child {
+  padding-left: 0;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
+}
+
+ul li:nth-child(2) {
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
+}
+
+ul li:nth-child(3) {
+  -webkit-animation-delay: .3s;
+          animation-delay: .3s;
+}
+
+ul li:nth-child(4) {
+  -webkit-animation-delay: .4s;
+          animation-delay: .4s;
+}
+
+ul li:nth-child(5) {
+  -webkit-animation-delay: .5s;
+          animation-delay: .5s;
+}
+
+ul li:nth-child(6) {
+  -webkit-animation-delay: .6s;
+          animation-delay: .6s;
+}
+
+ul li:nth-child(7) {
+  -webkit-animation-delay: .7s;
+          animation-delay: .7s;
+}
+
+@-webkit-keyframes light {
+  0% {
+    color: #281bda;
+    text-shadow: none;
+  }
+  90% {
+    color: #281bda;
+    text-shadow: none;
+  }
+  100% {
+    color: #ecdc4a;
+    text-shadow: 1px 0px 13px rgba(236, 220, 74, 0.7);
+  }
+}
+
+@keyframes light {
+  0% {
+    color: #281bda;
+    text-shadow: none;
+  }
+  90% {
+    color: #281bda;
+    text-shadow: none;
+  }
+  100% {
+    color: #ecdc4a;
+    text-shadow: 1px 0px 13px rgba(236, 220, 74, 0.7);
+  }
+}
+/*# sourceMappingURL=master.css.map */

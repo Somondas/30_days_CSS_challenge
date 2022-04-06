@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Mulish&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Roboto:wght@500&family=Shippori+Antique+B1&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;
+}
+
+html {
+  font-size: 62.5%;
+}
+.main_div {
+  width: 100vw;
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-items: center;
+  background-color: rgb(27, 26, 26);
+}
+.center_div{
+  width: 15rem;
+  height: 15rem;
+  /* background-color: #fff; */
+  position: relative;
+  /* display: grid;
+  place-items: center; */
+  /* border-right: .3rem solid rgb(19, 83, 120);
+  border-radius: 50%;
+  animation: rot 2s linear infinite; */
+
+}
+h1{
+  position: absolute;
+  color: #fff;
+  font-size: 2rem;
+  font-family: "Montserrat";
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rot{
+  width: 15rem;
+  height: 15rem;
+  /* background-color: #fff; */
+  position: absolute;
+  /* display: grid;
+  place-items: center; */
+  border-right: .3rem solid rgb(19, 83, 120);
+  border-radius: 50%;
+  animation: rot 2s linear infinite;
+}
+
+@keyframes rot {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}

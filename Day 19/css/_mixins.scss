@@ -1,0 +1,9 @@
+@mixin flexes($wid, $hei) {
+    width: $wid;
+    height: $hei;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
